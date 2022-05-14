@@ -10,6 +10,6 @@ module Root = {
 external createRoot: Dom.element => Root.t = "createRoot"
 
 switch ReactDOM.querySelector("#root_react_element") {
-| Some(container) => createRoot(container)->Root.render(<Demo />)
+| Some(container) => createRoot(container)->Root.render(<App />)
 | None => raise(NoRoot)
 }
