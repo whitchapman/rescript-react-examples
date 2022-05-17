@@ -1,0 +1,28 @@
+{
+  "name": "rescript-react-template",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "rescript",
+    "build:deps": "rescript build -with-deps",
+    "build:watch": "rescript build -w",
+    "clean": "rescript clean -with-deps",
+    "start": "vite",
+    "preview": "vite preview",
+    "release": "vite build"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "rescript": "*"
+  },
+  "devDependencies": {
+    "@rescript/react": "^0.10.3",
+    "vite": "^2.9.9"
+  }
+}
