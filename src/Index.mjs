@@ -23,6 +23,5 @@ Client.createRoot(container).render(React.createElement(App.make, {}));
 export {
   NoRoot ,
   Root ,
-  
 }
 /* container Not a pure module */

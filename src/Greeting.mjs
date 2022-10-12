@@ -10,6 +10,5 @@ var make = Greeting;
 
 export {
   make ,
-  
 }
 /* react Not a pure module */

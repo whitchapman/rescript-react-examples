@@ -27,7 +27,6 @@ function Hidden(Props) {
               ) + " show3=" + (
                 show3 ? "true" : "false"
               ));
-          
         }), [
         show1,
         show2,
@@ -40,22 +39,22 @@ function Hidden(Props) {
     Curry._1(setShow2, (function (_prev) {
             return false;
           }));
-    return Curry._1(setShow3, (function (_prev) {
-                  return false;
-                }));
+    Curry._1(setShow3, (function (_prev) {
+            return false;
+          }));
   };
   var onClick2 = function (_evt) {
     Curry._1(setShow2, (function (prev) {
             return !prev;
           }));
-    return Curry._1(setShow3, (function (_prev) {
-                  return false;
-                }));
+    Curry._1(setShow3, (function (_prev) {
+            return false;
+          }));
   };
   var onClick3 = function (_evt) {
-    return Curry._1(setShow3, (function (prev) {
-                  return !prev;
-                }));
+    Curry._1(setShow3, (function (prev) {
+            return !prev;
+          }));
   };
   return React.createElement("div", undefined, React.createElement("p", undefined, "Click the Buttons to change: show1=" + (
                   show1 ? "true" : "false"
@@ -76,6 +75,5 @@ var make = Hidden;
 
 export {
   make ,
-  
 }
 /* react Not a pure module */

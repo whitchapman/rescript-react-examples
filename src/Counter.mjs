@@ -9,9 +9,9 @@ function Counter(Props) {
       });
   var setCount = match[1];
   var onClick = function (_evt) {
-    return Curry._1(setCount, (function (prev) {
-                  return prev + 1 | 0;
-                }));
+    Curry._1(setCount, (function (prev) {
+            return prev + 1 | 0;
+          }));
   };
   var msg = "You clicked " + String(match[0]) + " times";
   return React.createElement("div", undefined, React.createElement("p", undefined, msg), React.createElement("button", {
@@ -23,6 +23,5 @@ var make = Counter;
 
 export {
   make ,
-  
 }
 /* react Not a pure module */

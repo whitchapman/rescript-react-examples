@@ -10,6 +10,5 @@ var make = Demo;
 
 export {
   make ,
-  
 }
 /* react Not a pure module */
