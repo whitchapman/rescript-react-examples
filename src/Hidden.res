@@ -12,6 +12,8 @@ let make = () => {
     }
   }
 
+  //setShow1(_ => false);
+
   React.useEffect3(() => {
     Js.log("show1=" ++ f(show1) ++ " show2=" ++ f(show2) ++ " show3=" ++ f(show3))
     None

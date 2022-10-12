@@ -11,8 +11,8 @@ npm install
 ## Build
 
 - Build: `npm run build`
-- Clean: `npm run clean`
 - Build & watch: `npm run build:watch`
+- Clean: `npm run clean`
 
 ## Run
 
